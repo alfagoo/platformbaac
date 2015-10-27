@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div data-role="page" id="frm-input" >
+              <div data-role="content" >
+                   <div data-role="panel" id="mypanel">
+                 <div data-role="controlgroup" class="ui-block-a">
+                      <a href=" " data-role="button" data-icon="home" data-iconpos="notext">หน้าหลัก</a>
+                        <a href="moblieform.html" data-role="button" data-icon="info">From</a>
+                        <a href="file2.html" data-role="button" data-icon="location">UI</a>
+                        <a href="file3.html" data-role="button" data-icon="phone">ติดต่อ</a></div>
+            </div>
+            <header data-role="header" >
+                Form
+            </header>
+        
+                <div data-role="main" class="ui-content">
+                    
+                    <a href="#mypanel" data-role="button"  data-iconpos="notext" data-icon="bars" >Panel</a>
+                   
+
+            
+                </div>
+                <form id="frm1">
+                    <div class="ui-field-contain">
+                        <lable for="txt-name">Name :</lable>
+                        <input type ="text" id="txt-name" placeholder="Input Name" data-clear-btn="ture">
+                    </div>
+                    <div class="ui-field-contain">
+                        <lable for="txt-pwd">Password :</lable>
+                        <input type ="password" id="txt-pwd" data-mini="true">
+                    </div>
+                    <div class="ui-field-contain">
+                        <lable for="txt-email">E-mail :</lable>
+                        <input type ="email" id="txt-email" disabled="disabled" placeholder="E-mail">
+                    </div>
+                    <div class="ui-field-contain">
+                        <lable for="txt-url">URL :</lable>
+                        <input type ="url" id="txt-url">
+                    </div>
+                    <div class="ui-field-contain">
+                        <lable for="txt-tel">Phone: </lable>
+                        <input type ="tel" id="txt-tel">
+                    </div>
+                    <div class="ui-field-contain">
+                        <lable for="txt-name">Number :</lable>
+                        <input type ="number" id="txt-nu">
+                    </div>
+                    <div class="ui-field-contain">
+                        <lable for="txt-name">Date: </lable>
+                        <input type="date" id="txt-date">
+                    </div>
+                    <div class="ui-field-contain">
+                        <lable for="txt-name">Time : </lable>
+                    </div>
+                    <div class="ui-field-contain">
+
+                        <input type="time" id="txt-time">
+                    </div>
+                    <div class="ui-field-contain">
+                        <input type="datetime" id="txt-datetime">
+                    </div>
+                    <div class="ui-field-contain">
+                        <input type="week" id="txt-week">
+                    </div>
+                    <div class="ui-field-contain">
+                        <input type="month" id="txt-month">
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="txt-search">Search:</label>
+                        <input type="search" id="txt-search" placeholder="Search for content...">
+           
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="txt-range">Points:</label>
+                        <input type="range" id="txt-range" min="1" max="10" step="1" >
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="rd1">Choice#1</label>
+                        <input type="radio" name="rd" id="rd1">
+                    
+                        <label for="rd2">Choice#2</label>
+                        <input type="radio" name="rd" id="rd2">
+                    </div>
+                    
+                        <fieldset data-role="controlgroup" data-type="horizontal">
+                            <label for="rd3">Choice#3</label>
+                            <input type="radio" name="rd" id="rd3">
+                            <label for="rd4">Choice#4</label>
+                            <input type="radio" name="rd" id="rd4">
+                        </fieldset>
+                    
+                     <div class="ui-field-contain">
+                        <label for="ck1">Checkbox#1</label>
+                        <input type="checkbox" name="ck" id="ck1">
+                    
+                        <label for="ck2">Checkbox#2</label>
+                        <input type="checkbox" name="ck" id="ck2">
+                    </div>
+                    
+                        <fieldset data-role="controlgroup" data-type="horizontal">
+                            <label for="ck3">Checkbox#3</label>
+                            <input type="checkbox" name="ck" id="ck3">
+                            <label for="ck4">Checkbox#4</label>
+                            <input type="checkbox" name="ck" id="ck4">
+                        </fieldset>
+                    <select data-native-menu="false" multiple="multiple">
+                        <option> Item #1</option>
+                        <option> Item #2</option>
+                        <option> Item #3</option>
+                        
+                    </select>
+                    
+                    
+                    <input type="color" id="txt-color">
+                </form>
+            </div>
+        </div>
+
+
+
+
+    </body>
+</html>

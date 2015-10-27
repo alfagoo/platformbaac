@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/themes/default/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <section data-role="page" >
+            <header data-role="header" >
+                <div data-role="controlgroup" data-type="horizontal">
+                    <a href="" data-role="button" data-icon="navigation" data-iconpos="notext">A</a>
+                    <a href="" data-role="button" data-icon="mail" data-iconpos="notext">B</a>
+                    <a href="file3.html" data-role="button" data-icon="video" data-iconpos="notext">C</a>
+                </div>
+            </header>
+
+            <div data-role="content">
+                <div data-role="navbar" data-grid="c">
+                    <ul>
+                        <li><a href="index.html" data-icon="home" data-iconpos="right">Home</a></li>
+                        <li><a href="index.html#info" data-rel="dialog" >Popup</a></li>
+                        <li><a href="file3.html">Grouping</a></li>
+                        <li><a href="file3.html#f3p2"  rel="external" data-ajax="true" >Tab</a></li>
+                         <li><a href="test.php" rel="external">PHP</a></li>
+                    </ul>
+                 
+                </div> 
+                
+                <h1>Grid</h1>
+                <div class="ui-grid-a">
+                    <div class="ui-block-b">
+                        <a data-role ="button"> Col 1</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a data-role="button"> Col2 </a>
+                    </div>
+                </div>
+    
+            
+            <div class="ui-grid-b">
+                <div class="ui-block-a">  <a data-role ="button"> Col 1</a></div>
+                <div class="ui-block-b">  <a data-role ="button"> Col 2</a></div>
+                  <div class="ui-block-c">  <a data-role ="button"> Col 3</a></div>
+            </div>
+            <div data-role="controlgroup"  class="ui-grid-b" >
+                <div class="ui-block-a">  <a data-role ="button"> Col 4</a></div>
+                <div class="ui-block-b">  <a data-role ="button"> Col 5</a></div>
+                <div class="ui-block-c">  <a data-role ="button"> Col 6</a></div>
+            </div>
+
+        </div>
+
+
+            <footer data-role="footer" class="ui-bar" data-position="fixed" data-fullscreen="ture">
+                <a href="" data-role="button" >A</a>
+                <a href="" data-role="button" >B</a>
+                <a href="" data-role="button" >C</a>
+            </footer>
+        </section>
+
+
+
+
+    </body>
+</html>
